@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.marklogic</groupId>
+  <artifactId>java-api-tutorial</artifactId>
+  <version>3.0.6</version>
+  <name>MarkLogic Java API tutorial examples</name>
+  <description>Sample tutorial apps using the MarkLogic Java API.</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.marklogic</groupId>
+  		<artifactId>java-client-api</artifactId>
+  		<version>3.0.5</version>
+  	</dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>dmc</id>
+      <name>MarkLogic Developer Community</name>
+      <url>http://developer.marklogic.com/maven2/</url></repository>
+      <repository>
+            <id>internal.repo</id>
+            <name>Temporary Staging Repository</name>
+            <url>file://${project.build.directory}/mvn-repo</url>
+        </repository>
+  </repositories>
+</project>
