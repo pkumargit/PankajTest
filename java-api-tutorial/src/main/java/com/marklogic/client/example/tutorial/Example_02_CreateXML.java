@@ -33,7 +33,7 @@ import com.marklogic.client.io.DOMHandle;
 import com.marklogic.client.io.InputStreamHandle;
 
 /**
- * CreateXML illustrates how to write XML content to a database document.
+ * CreateXML illustrates how to write XML content to a database document1.
  */
 public class Example_02_CreateXML {
 	static Logger logger = Logger.getLogger(Example_02_CreateXML.class.getName());
